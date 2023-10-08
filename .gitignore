@@ -1,0 +1,27 @@
+# Xcode
+*.xcworkspace
+*.xcuserdatad
+xcuserdata/
+
+# Swift Package Manager
+.Package.resolved
+
+# CocoaPods files
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Checkouts
+Carthage/Build
+
+# macOS
+.DS_Store
+
+# Temporary files
+build/
+DerivedData/
+
+# Personal files
+*.pem
+*.cer
+
