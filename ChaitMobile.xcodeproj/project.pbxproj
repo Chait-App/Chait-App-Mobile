@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556977FA2AD340D9008AAACF /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556977F92AD340D9008AAACF /* LaunchScreenView.swift */; };
 		55A0E1622AD32944008C236C /* ChaitMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A0E1612AD32944008C236C /* ChaitMobileApp.swift */; };
 		55A0E1642AD32944008C236C /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A0E1632AD32944008C236C /* MainPageView.swift */; };
 		55A0E1662AD32945008C236C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A0E1652AD32945008C236C /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		556977F92AD340D9008AAACF /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		55A0E15E2AD32944008C236C /* ChaitMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaitMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A0E1612AD32944008C236C /* ChaitMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaitMobileApp.swift; sourceTree = "<group>"; };
 		55A0E1632AD32944008C236C /* MainPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageView.swift; sourceTree = "<group>"; };
@@ -49,7 +51,6 @@
 		556977EB2AD338A0008AAACF /* View */ = {
 			isa = PBXGroup;
 			children = (
-				55A0E1632AD32944008C236C /* MainPageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -167,6 +168,8 @@
 				556977F82AD33C2E008AAACF /* Tests */,
 				55A0E1612AD32944008C236C /* ChaitMobileApp.swift */,
 				55A0E1672AD32945008C236C /* Preview Content */,
+				55A0E1632AD32944008C236C /* MainPageView.swift */,
+				556977F92AD340D9008AAACF /* LaunchScreenView.swift */,
 			);
 			path = ChaitMobile;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				55A0E1642AD32944008C236C /* MainPageView.swift in Sources */,
 				55A0E1622AD32944008C236C /* ChaitMobileApp.swift in Sources */,
+				556977FA2AD340D9008AAACF /* LaunchScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
