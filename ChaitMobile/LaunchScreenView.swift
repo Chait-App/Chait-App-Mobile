@@ -9,7 +9,22 @@ import SwiftUI
 
 struct LaunchScreenView: View {
     var body: some View {
-        Text("Launch screen view!")
+      ZStack{
+        LinearGradient(gradient: Gradient(colors: [Color.blue, Color.white]), startPoint: .topLeading, endPoint: .bottomTrailing)
+        VStack{
+          Text("Chait")
+            .font(.largeTitle)
+            .foregroundStyle(Color.white)
+            .padding()
+          Rectangle()
+            .frame(width: ScreenSizeHelper.screenWidth/4, height: ScreenSizeHelper.screenHeight/9, alignment: .center)
+            .foregroundColor(.brown)
+            .shadow(radius: 10)
+            .padding()
+        }
+        .frame(width: 150
+                , height: 50, alignment: .center)
+      }.ignoresSafeArea()
     }
 }
 
