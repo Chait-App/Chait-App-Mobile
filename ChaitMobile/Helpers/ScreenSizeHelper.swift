@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct ScreenSizeHelper {
+  // this code to be reviewed
   static let screenWidth: CGFloat = UIScreen.main.bounds.width
   static let screenHeight: CGFloat = UIScreen.main.bounds.height
+
 }
 
 
