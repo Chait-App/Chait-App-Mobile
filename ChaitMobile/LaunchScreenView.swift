@@ -18,7 +18,7 @@ struct LaunchScreenView: View {
             .padding()
           Rectangle()
             .frame(width: ScreenSizeHelper.screenWidth/4, height: ScreenSizeHelper.screenHeight/9, alignment: .center)
-            .foregroundColor(.green)
+            .foregroundColor(.brown)
             .shadow(radius: 10)
             .padding()
         }
