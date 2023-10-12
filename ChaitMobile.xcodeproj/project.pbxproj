@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		551AD9D82AD851A000DEA217 /* ScreenSizeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 551AD9D72AD851A000DEA217 /* ScreenSizeHelper.swift */; };
 		556977FA2AD340D9008AAACF /* LaunchScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556977F92AD340D9008AAACF /* LaunchScreenView.swift */; };
 		55A0E1622AD32944008C236C /* ChaitMobileApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A0E1612AD32944008C236C /* ChaitMobileApp.swift */; };
 		55A0E1642AD32944008C236C /* MainPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A0E1632AD32944008C236C /* MainPageView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		551AD9D72AD851A000DEA217 /* ScreenSizeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSizeHelper.swift; sourceTree = "<group>"; };
 		556977F92AD340D9008AAACF /* LaunchScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenView.swift; sourceTree = "<group>"; };
 		55A0E15E2AD32944008C236C /* ChaitMobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChaitMobile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A0E1612AD32944008C236C /* ChaitMobileApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChaitMobileApp.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		55A0E1602AD32944008C236C /* ChaitMobile */ = {
 			isa = PBXGroup;
 			children = (
+				55B685E82AD720D9001F5A38 /* Helpers */,
 				556977F32AD33BDB008AAACF /* AIChat */,
 				556977F22AD33BD0008AAACF /* Chat */,
 				556977EF2AD338D8008AAACF /* Resources */,
@@ -180,6 +183,14 @@
 				55A0E1682AD32945008C236C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55B685E82AD720D9001F5A38 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				551AD9D72AD851A000DEA217 /* ScreenSizeHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		D757E812DE0A477F7BA22421 /* Frameworks */ = {
@@ -304,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				551AD9D82AD851A000DEA217 /* ScreenSizeHelper.swift in Sources */,
 				55A0E1642AD32944008C236C /* MainPageView.swift in Sources */,
 				55A0E1622AD32944008C236C /* ChaitMobileApp.swift in Sources */,
 				556977FA2AD340D9008AAACF /* LaunchScreenView.swift in Sources */,
